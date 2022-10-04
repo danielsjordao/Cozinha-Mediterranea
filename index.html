@@ -25,6 +25,7 @@
         <link href="./assets/css/receitas/receita-titulo.css" rel="stylesheet"/>
         <link href="./assets/css/receitas/receita.css" rel="stylesheet"/>
         <link href="./assets/css/receitas.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita-detalhe.css" rel="stylesheet"/>
         <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
         <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
         <link href="./assets/css/quemSomos/quemSomos-titulo.css" rel="stylesheet" />
@@ -33,15 +34,17 @@
         <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
+        <link href="./assets/css/rodape.css" rel="stylesheet" />
+        <link href="./assets/css/logo.css" rel="stylesheet" />
 
     </head>
     <body>
         <header class="cabecalho">
-            <img class="logo" alt="Cozinha Mediterrânea" src="./assets/img/logo_CozinhaMediterranea2.jpg">
+            <img class="logo" alt="Cozinha Mediterrânea" src="./assets/img/cozinha_mediterranea.png">
                 <nav class="menu">
                     <ul class="menu__lista">
-                        <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li>
-                        <li class="menu__item"><a class="menu__link ativo" href="#">Receitas</a></li>
+                        <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
+                        <li class="menu__item"><a class="menu__link ativo" href="receita-tzatziki.html">Receitas</a></li>
                         <li class="menu__item"><a class="menu__link ativo" href="#">Quem Somos</a></li>
                         <li class="menu__item"><a class="menu__link ativo" href="#">Contato</a></li>
                     </ul>
@@ -49,62 +52,86 @@
         </header>
         <section class="banner">
             <div class="banner__imagem"></div>
-            <h2 class="banner__titulo">Pense de forma criativa e cozinhe!</h2>
+            <h2 class="banner__titulo">Cozinha Mediterrânea!</h2>
         </section>
         <section class="sobre">
-            <h2 class="sobre__titulo">Receitas do Mediterrâneo</h2>
+            <h2 class="sobre__titulo">Receitas da Cozinha Mediterrânea</h2>
             <p class="sobre__descricao">As receitas do Mediterrâneo proporcionam a todos uma dieta saudável e repleta de nutrientes.</p>
         </section>
         <section class="receitas">
             <div class="receita">
-                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/receitas/tigela-de-abacate.jpg" />
+                <img alt="Tzatziki" class="receita__imagem" src="./assets/img/receitas/tzaziki.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Tigela de abacate</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Tzaztiki</h4>
+                    <p class="receita__descricao">Receita de um antepasto grego feito com pepino e iogurte.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
+
             <div class="receita">
-                <img alt="Salada de kiwi" class="receita__imagem" src="./assets/img/receitas/salada-de-kiwi.jpg" />
+                <img alt="Xoriatiki" class="receita__imagem" src="./assets/img/receitas/Xoriatiki.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Salada de kiwi</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Xoriatiki</h4>
+                    <p class="receita__descricao">Salada refrescante e cheia de vitaminas para seu almoço.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
+
             <div class="receita">
-                <img alt="Mix de vegetais" class="receita__imagem" src="./assets/img/receitas/mix-de-vegetais.jpg" />
+                <img alt="Pão Pita" class="receita__imagem" src="./assets/img/receitas/pao-pita.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Mix de vegetais</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Pão Pita</h4>
+                    <p class="receita__descricao">Receita de um pão macio e delicioso típico grego.</p>
+                    <button class="receita__botao" href>Ver receita</button>
+                </div>
+            </div>
+
+            <div class="receita">
+                <img alt="Moussakás" class="receita__imagem" src="./assets/img/receitas/moussakas2.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Moussakás</h4>
+                    <p class="receita__descricao">Receita de uma lasanha de beringelas coberta com bechamel.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
+
             <div class="receita">
-                <img alt="Pimentões à Juliana" class="receita__imagem" src="./assets/img/receitas/pimentoes-a-juliana.jpg" />
+                <img alt="Bruschetta" class="receita__imagem" src="./assets/img/receitas/bruschettatomaoes.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Pimentões à Juliana</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Bruschetta com tomates e queijo</h4>
+                    <p class="receita__descricao">Receita refrescante de entrada para o seu almoço ou jantar.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
+
             <div class="receita">
-                <img alt="Prato oriental" class="receita__imagem" src="./assets/img/receitas/prato-oriental.jpg" />
+                <img alt="Focaccia com tomates cereja" class="receita__imagem" src="./assets/img/receitas/Focaccia_tomatescereja.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Prato oriental</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Focaccia com tomates cereja</h4>
+                    <p class="receita__descricao">Receita deliciosa de Focaccia com tomates cereja e alecrim.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
+
             <div class="receita">
-                <img alt="Beterrabas assadas" class="receita__imagem" src="./assets/img/receitas/beterrabas-assadas.jpg" />
+                <img alt="Espaguete à Carbonara" class="receita__imagem" src="./assets/img/receitas/Espaguete-a-carbonara.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Beterrabas assadas</h4>
-                    <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <h4 class="receita__titulo">Espaguete à Carbonara</h4>
+                    <p class="receita__descricao">Deliciosa receita típica Italiana de Espaguete à Carbonara.</p>
+                    <button class="receita__botao">Ver receita</button>
+                </div>
+            </div>
+
+            <div class="receita">
+                <img alt="Risotto alla Milanese com Ossobuco" class="receita__imagem" src="./assets/img/receitas/risotto-milanese.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Risotto alla Milanese</h4>
+                    <p class="receita__descricao">Receita deliciosa de Risotto alla Milanese com Ossobuco.</p>
                     <button class="receita__botao">Ver receita</button>
                 </div>
             </div>
         </section>
+
         <section class="quem-somos">
             <h3 class="quem-somos__titulo">Quem somos</h3>
             <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
@@ -126,5 +153,8 @@
                 </div>
             </div>
         </section>
+        <footer class="rodape">
+            Visite meu GitHub: https://github.com/dsjordao/
+        </footer>
     </body>
 </html>
