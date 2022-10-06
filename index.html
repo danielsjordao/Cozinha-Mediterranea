@@ -8,16 +8,20 @@
         <title>Cozinha Mediterrânea</title>
         <link href="./assets/css/normalize.css" rel="stylesheet" />
         <link href="./assets/css/reset.css" rel="stylesheet" />
+
         <link href="./assets/css/menu/cabecalho.css" rel="stylesheet" />
         <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
         <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
         <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+
         <link href="./assets/css/banner/banner.css" rel="stylesheet" />
         <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
         <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+
         <link href="./assets/css/sobre/sobre.css" rel="stylesheet"/>
         <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet"/>
         <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet"/>
+        
         <link href="./assets/css/receitas/receita-botao.css" rel="stylesheet"/>
         <link href="./assets/css/receitas/receita-conteudo.css" rel="stylesheet"/>
         <link href="./assets/css/receitas/receita-descricao.css" rel="stylesheet"/>
@@ -25,15 +29,24 @@
         <link href="./assets/css/receitas/receita-titulo.css" rel="stylesheet"/>
         <link href="./assets/css/receitas/receita.css" rel="stylesheet"/>
         <link href="./assets/css/receitas.css" rel="stylesheet"/>
-        <link href="./assets/css/receitas/receita-detalhe.css" rel="stylesheet"/>
+
+        <link href="./assets/css/preparos.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-conteudo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-descricao.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-titulo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-subtitulo.css" rel="stylesheet"/>
+
         <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
         <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
         <link href="./assets/css/quemSomos/quemSomos-titulo.css" rel="stylesheet" />
+
         <link href="./assets/css/pessoas.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
         <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
+
         <link href="./assets/css/rodape.css" rel="stylesheet" />
         <link href="./assets/css/logo.css" rel="stylesheet" />
 
@@ -44,9 +57,9 @@
                 <nav class="menu">
                     <ul class="menu__lista">
                         <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
-                        <li class="menu__item"><a class="menu__link ativo" href="receita-tzatziki.html">Receitas</a></li>
-                        <li class="menu__item"><a class="menu__link ativo" href="#">Quem Somos</a></li>
-                        <li class="menu__item"><a class="menu__link ativo" href="#">Contato</a></li>
+                        <!--<li class="menu__item"><a class="menu__link ativo" href="index.html">Receitas</a></li>-->
+                        <li class="menu__item"><a class="menu__link ativo" href="index.html">Quem Somos</a></li>
+                        <li class="menu__item"><a class="menu__link ativo" href="index.html">Contato</a></li>
                     </ul>
                 </nav>
         </header>
@@ -62,9 +75,9 @@
             <div class="receita">
                 <img alt="Tzatziki" class="receita__imagem" src="./assets/img/receitas/tzaziki.jpg" />
                 <div class="receita__conteudo">
-                    <h4 class="receita__titulo">Tzaztiki</h4>
-                    <p class="receita__descricao">Receita de um antepasto grego feito com pepino e iogurte.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <h4 class="receita__titulo">Tzatziki</h4>
+                    <p class="receita__descricao">Receita de um antepasto típico grego feito com pepino e iogurte.</p>
+                    <a href="tzatziki.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -72,8 +85,8 @@
                 <img alt="Xoriatiki" class="receita__imagem" src="./assets/img/receitas/Xoriatiki.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Xoriatiki</h4>
-                    <p class="receita__descricao">Salada refrescante e cheia de vitaminas para seu almoço.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Salada típica grega refrescante, colorida e cheia de vitaminas para seu almoço.</p>
+                    <a href="xoriatiki.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -81,8 +94,8 @@
                 <img alt="Pão Pita" class="receita__imagem" src="./assets/img/receitas/pao-pita.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Pão Pita</h4>
-                    <p class="receita__descricao">Receita de um pão macio e delicioso típico grego.</p>
-                    <button class="receita__botao" href>Ver receita</button>
+                    <p class="receita__descricao">Receita de pão típico grego macio e delicioso para comer com antepastos.</p>
+                    <a href="pao-pita.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -90,8 +103,8 @@
                 <img alt="Moussakás" class="receita__imagem" src="./assets/img/receitas/moussakas2.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Moussakás</h4>
-                    <p class="receita__descricao">Receita de uma lasanha de beringelas coberta com bechamel.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Receita típica grega de lasanha de beringela coberta com molho bechamel.</p>
+                    <a href="moussakas.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -99,8 +112,8 @@
                 <img alt="Bruschetta" class="receita__imagem" src="./assets/img/receitas/bruschettatomaoes.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Bruschetta com tomates e queijo</h4>
-                    <p class="receita__descricao">Receita refrescante de entrada para o seu almoço ou jantar.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Receita típica italiana de uma refrescante de entrada para as refeições.</p>
+                    <a href="bruschetta.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -108,8 +121,8 @@
                 <img alt="Focaccia com tomates cereja" class="receita__imagem" src="./assets/img/receitas/Focaccia_tomatescereja.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Focaccia com tomates cereja</h4>
-                    <p class="receita__descricao">Receita deliciosa de Focaccia com tomates cereja e alecrim.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Receita deliciosa de Focaccia Italiana com tomates cereja e alecrim.</p>
+                    <a href="focaccia.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -117,8 +130,8 @@
                 <img alt="Espaguete à Carbonara" class="receita__imagem" src="./assets/img/receitas/Espaguete-a-carbonara.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Espaguete à Carbonara</h4>
-                    <p class="receita__descricao">Deliciosa receita típica Italiana de Espaguete à Carbonara.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Deliciosa receita típica Italiana de Espaguete à Carbonara para todas as refeições.</p>
+                    <a href="espaguetecarbonara.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
 
@@ -126,35 +139,37 @@
                 <img alt="Risotto alla Milanese com Ossobuco" class="receita__imagem" src="./assets/img/receitas/risotto-milanese.jpg" />
                 <div class="receita__conteudo">
                     <h4 class="receita__titulo">Risotto alla Milanese</h4>
-                    <p class="receita__descricao">Receita deliciosa de Risotto alla Milanese com Ossobuco.</p>
-                    <button class="receita__botao">Ver receita</button>
+                    <p class="receita__descricao">Receita especial e deliciosa de Risotto alla Milanese com Ossobuco.</p>
+                    <a href="RisottoallaMilanese.html"<button class="receita__botao">Ver receita</button></a>
                 </div>
             </div>
         </section>
 
         <section class="quem-somos">
             <h3 class="quem-somos__titulo">Quem somos</h3>
-            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            <p class="quem-somos__descricao">Conheça os idealizadores por trás dessa iniciativa de criar um ambiente de compartilhamento de receitas do Mediterrâneo</p>
             <div class="pessoas">
                 <div class="pessoa">
-                    <div class="pessoa__imagem pessoa__imagem--roberta"></div>
-                    <span class="pessoa__nome">Roberta</span>
-                    <span class="pessoa__funcao">Conteúdo</span>
+                    <div class="pessoa__imagem pessoa__imagem--daniel"></div>
+                    <span class="pessoa__nome">Daniel Jordão</span>
+                    <span class="pessoa__funcao">Desenvolvedor Front-end e Entusiasta da Cozinha</span>
                 </div>
                 <div class="pessoa">
-                    <div class="pessoa__imagem pessoa__imagem--marcela"></div>
-                    <span class="pessoa__nome">Marcela</span>
-                    <span class="pessoa__funcao">Chef de cozinha</span>
+                    <div class="pessoa__imagem pessoa__imagem--filipe"></div>
+                    <span class="pessoa__nome">Filipe Jordão</span>
+                    <span class="pessoa__funcao">Chefinho e Incentivador</span>
                 </div>
                 <div class="pessoa">
-                    <div class="pessoa__imagem pessoa__imagem--andreia"></div>
-                    <span class="pessoa__nome">Andréia</span>
-                    <span class="pessoa__funcao">Pequena Produtora</span>
+                    <div class="pessoa__imagem pessoa__imagem--andrea"></div>
+                    <span class="pessoa__nome">Andrea Piacquadio</span>
+                    <span class="pessoa__funcao">Pesquisadora e Especialista em Cozinha Italiana</span>
                 </div>
             </div>
         </section>
         <footer class="rodape">
-            Visite meu GitHub: https://github.com/dsjordao/
+            <p>Visite o meu GitHub
+            <a class="rodape__link" href="https://github.com/dsjordao/">Daniel Jordão</a></p>
+            <p class="copyright">&copy; Copyright Cozinha Mediterrânea - 2022</p> 
         </footer>
     </body>
 </html>
