@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Cozinha Mediterrânea</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+
+        <link href="./assets/css/menu/cabecalho.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet"/>
+        <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet"/>
+        <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet"/>
+        
+        <link href="./assets/css/receitas/receita-botao.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita-conteudo.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita-descricao.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita-imagem.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita-titulo.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas/receita.css" rel="stylesheet"/>
+        <link href="./assets/css/receitas.css" rel="stylesheet"/>
+
+        <link href="./assets/css/preparos.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-conteudo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-descricao.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-titulo.css" rel="stylesheet"/>
+        <link href="./assets/css/ingredientes-preparo/preparo-subtitulo.css" rel="stylesheet"/>
+
+        <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-titulo.css" rel="stylesheet" />
+
+        <link href="./assets/css/pessoas.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-funcao.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/pessoa/pessoa-nome.css" rel="stylesheet" />
+
+        <link href="./assets/css/rodape.css" rel="stylesheet" />
+        <link href="./assets/css/logo.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="logo" alt="Cozinha Mediterrânea" src="./assets/img/cozinha_mediterranea.png">
+                <nav class="menu">
+                    <ul class="menu__lista">
+                        <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
+                        <li class="menu__item"><a class="menu__link ativo" href="quemsomos.html">Quem Somos</a></li>
+                        <li class="menu__item"><a class="menu__link ativo" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </header>
+    <!--<section class="banner">
+        <div class="banner__imagem"></div>
+        <h2 class="banner__titulo">Cozinha Mediterrânea!</h2>
+    </section>-->
+
+    <section class="sobre">
+        <h2 class="sobre__titulo">Receitas da Cozinha Mediterrânea</h2>
+        <p class="sobre__descricao">Vejam as receitas que separamos para vocês!</p>
+    </section>
+
+    <section class="receitas">
+        <div class="receita">
+            <img alt="Tzatziki" class="receita__imagem" src="./assets/img/receitas/tzaziki.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Tzatziki</h4>
+                <p class="receita__descricao">Receita de um antepasto típico grego feito com pepino e iogurte.</p>
+                <a href="tzatziki.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Xoriatiki" class="receita__imagem" src="./assets/img/receitas/Xoriatiki.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Xoriatiki</h4>
+                <p class="receita__descricao">Salada típica grega refrescante, colorida e cheia de vitaminas para suas refeições.</p>
+                <a href="xoriatiki.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Pão Pita" class="receita__imagem" src="./assets/img/receitas/pao-pita.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Pão Pita</h4>
+                <p class="receita__descricao">Receita de pão típico grego macio e delicioso para comer com antepastos.</p>
+                <a href="pao-pita.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Moussakás" class="receita__imagem" src="./assets/img/receitas/moussakas2.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Moussakás</h4>
+                <p class="receita__descricao">Receita típica grega de lasanha de beringela coberta com molho bechamel.</p>
+                <a href="moussakas.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Bruschetta" class="receita__imagem" src="./assets/img/receitas/bruschettatomaoes.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Bruschetta com tomates e queijo</h4>
+                <p class="receita__descricao">Receita típica italiana de uma refrescante de entrada para as refeições.</p>
+                <a href="bruschetta.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Focaccia com tomates cereja" class="receita__imagem" src="./assets/img/receitas/Focaccia_tomatescereja.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Focaccia com tomates cereja</h4>
+                <p class="receita__descricao">Receita deliciosa de Focaccia Italiana com tomates cereja e alecrim.</p>
+                <a href="focaccia.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Espaguete à Carbonara" class="receita__imagem" src="./assets/img/receitas/Espaguete-a-carbonara.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Espaguete à Carbonara</h4>
+                <p class="receita__descricao">Deliciosa receita típica Italiana de Espaguete à Carbonara para todas as refeições.</p>
+                <a href="espaguetecarbonara.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img alt="Risotto alla Milanese com Ossobuco" class="receita__imagem" src="./assets/img/receitas/risotto-milanese.jpg" />
+            <div class="receita__conteudo">
+                <h4 class="receita__titulo">Risotto alla Milanese</h4>
+                <p class="receita__descricao">Receita especial e deliciosa de Risotto alla Milanese com Ossobuco.</p>
+                <a href="RisottoallaMilanese.html"<button class="receita__botao">Ver receita</button></a>
+            </div>
+        </div>
+    </section>
+   
+    <footer class="rodape">
+        <p>Visite o meu GitHub
+        <a class="rodape__link" href="https://github.com/dsjordao/">Daniel Jordão</a></p>
+        <p class="copyright">&copy; Copyright Cozinha Mediterrânea - 2022</p> 
+    </footer>
+</body>
+</html>
