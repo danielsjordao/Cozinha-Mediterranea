@@ -1,0 +1,24 @@
+.preparos{
+    background:#EAECEE;
+    display: flex;
+    flex-wrap: wrap;
+    /*padding: 5rem 0 0 5rem; transferido para 992px*/
+}
+
+@media screen and (min-width: 0) {
+    .preparos {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .preparos {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .preparos {
+        padding: 5rem 0 0 5rem;
+    }
+}

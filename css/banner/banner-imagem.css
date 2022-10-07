@@ -1,0 +1,23 @@
+.banner__imagem{
+    background: url('../../img/banner_cm.jpg') no-repeat center / cover;
+    /*height: calc(100vh - 72px); transferido para @media*/
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}
+
+/*para evitar ter que repetir constantemente background é possível sintetizar;
+    background-image: url('../../img/banner_cm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/

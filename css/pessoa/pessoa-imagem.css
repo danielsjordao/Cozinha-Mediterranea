@@ -1,0 +1,26 @@
+.pessoa__imagem {
+    background: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    height: 300px;
+    margin: 0 auto;    
+    width: 300px;
+    border: 1px solid none;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #B0C4DE;
+}
+
+.pessoa__imagem--daniel {
+    background-image: url('../../img/pessoas/Daniel_Jordao.png');
+}
+
+.pessoa__imagem--filipe {
+    background-image: url('../../img/pessoas/Filipebj.png');
+}
+
+.pessoa__imagem--andrea {
+    background-image: url('../../img/pessoas/chef_sr1.jpg');
+}
