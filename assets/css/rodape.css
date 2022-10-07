@@ -1,0 +1,14 @@
+.rodape {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 1.5625rem 5rem;
+    font-weight: bold;
+        
+}
+
+.rodape__link{
+  text-decoration:none;
+  color:#154360;
+  font-weight: bold;
+}
